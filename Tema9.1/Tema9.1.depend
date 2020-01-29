@@ -1,0 +1,37 @@
+# depslib dependency file v1.0
+1580229524 source:c:\c++\tema9.1\main.cpp
+	<iostream>
+	<stdlib.h>
+	<vector>
+	<Participant.h>
+	"Roman.h"
+	"Francez.h"
+	"German.h"
+
+1579719315 source:c:\c++\tema9.1\src\participant.cpp
+	"Participant.h"
+	<iostream>
+
+1580140418 c:\c++\tema9.1\include\participant.h
+	<iostream>
+
+1579719603 source:c:\c++\tema9.1\src\roman.cpp
+	"Roman.h"
+
+1579719315 c:\c++\tema9.1\include\roman.h
+	<Participant.h>
+
+1579724267 source:c:\c++\tema9.1\src\german.cpp
+	"German.h"
+	"Participant.h"
+
+1579719603 c:\c++\tema9.1\include\german.h
+	<Participant.h>
+
+1579719797 source:c:\c++\tema9.1\src\francez.cpp
+	"Francez.h"
+	"Participant.h"
+
+1579719738 c:\c++\tema9.1\include\francez.h
+	<Participant.h>
+
