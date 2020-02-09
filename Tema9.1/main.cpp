@@ -32,6 +32,7 @@ Participant* CreazaParticipant()
      cin>>optiune;
 
      switch(optiune)
+
      {
          case 1: {Participant* roman=new(Roman);
                   return roman;
@@ -56,6 +57,11 @@ int main()
     {
         Meniu();
         cin >>opt;
+        while (opt>2||opt<0)
+        {
+            cout<<"Introduceti o optiune valida";
+            cin>>opt;
+        }
         if (opt==1)
                pntParticipanti.push_back(CreazaParticipant());
         else if(opt==2)
@@ -88,6 +94,9 @@ int main()
 
     }
     pntParticipanti.clear();
+
+     for (int i=0; i<pntParticipanti.size(); ++i)
+        delete pntParticipanti[i];
 
     return 0;
 }
